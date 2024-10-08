@@ -24,3 +24,14 @@
 .bi {
     font-size: 3.2rem;
 }
+.Chooseus{
+    margin-top: 34px;
+    margin-left: -96px;
+
+}
+@media (max-width: 576px) {
+    .Chooseus {
+        margin-left: 0;
+       
+    }
+}

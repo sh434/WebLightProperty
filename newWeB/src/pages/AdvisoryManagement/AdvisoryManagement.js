@@ -123,7 +123,7 @@ const AdvisoryManagement = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-6" style={{ marginTop: "34px", marginLeft: "-96px" }}>
+                        <div className="col-md-6 Chooseus" >
                             <h2>Why Choose Us</h2>
 
                             <p class="living__details--content__list pt-2">
