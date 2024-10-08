@@ -1,0 +1,113 @@
+.widget__step {
+  padding: 3rem 2rem;
+  border: 1px solid var(--color-border);
+  position: sticky;
+  top: 108px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .widget__step {
+    padding: 3rem;
+  }
+}
+
+.widget__step--title {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--color-hover);
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .widget__step--title {
+    margin-bottom: 3rem;
+  }
+}
+
+.widget__form--input input::-webkit-input-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input input::-moz-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input input:-ms-input-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input input:-moz-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input textarea::-webkit-input-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input textarea::-moz-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input textarea:-ms-input-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input textarea:-moz-placeholder {
+  font-weight: 500;
+  color: #838383;
+}
+
+.widget__form--input__field {
+  width: 100%;
+  height: 5rem;
+  border: 1px solid #838383;
+  background: #F5F8FB;
+  color: var(--color-foreground);
+  padding: 0 2.5rem;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .widget__form--input__field {
+    height: 5.5rem;
+  }
+}
+
+.widget__form--input__field:focus {
+  border-color: var(--color-hover);
+}
+
+.widget__form--textarea__field {
+  width: 100%;
+  height: 15rem;
+  border: 0;
+  background: #F5F8FB;
+  color: var(--color-foreground);
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  resize: none;
+  border: 1px solid #838383;
+}
+
+.widget__form--textarea__field:focus {
+  border-color: var(--color-hover);
+}
+
+.widget__form--btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}

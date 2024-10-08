@@ -1,0 +1,98 @@
+.service-section {
+    background: rgba(239, 53, 54, 0.7) url('../../../../public/assets/wp3.jpg');
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    /* height: 60vh; */
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.amenities__icone {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+    .amenities__icone {
+        margin-bottom: 2rem;
+    }
+}
+
+.amenities__icone span {
+    width: 5rem;
+    height: 5rem;
+    background: var(--color-background);
+    color: var(--color-hover);
+    line-height: 5rem;
+    text-align: center;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 992px) {
+    .amenities__icone span {
+        width: 7rem;
+        height: 7rem;
+        line-height: 7rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .amenities__icone span svg {
+        width: 3rem;
+        height: 2.8rem;
+    }
+}
+
+
+.custom-card {
+    background-color: #f0f0f0;
+    /* Background color */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 30px;
+    /* Size of the icon */
+    color: #007bff;
+    /* Icon color */
+    margin-bottom: 10px;
+}
+
+.card-heading {
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* Heading size */
+    color: #333;
+    /* Heading color */
+    margin: 0;
+}
+
+.kh {
+    width: 7rem;
+    height: 7rem;
+    background: #9b595c30;
+    color: var(--color-hover);
+    line-height: 5rem;
+    text-align: center;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    /* margin-top: 17px; */
+    display: inline-blo
+}

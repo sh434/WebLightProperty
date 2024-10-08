@@ -1,0 +1,14 @@
+.hero-section {
+    background: #000000b3 url('../../../../public/assets/wpm-1.jpg');
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    box-sizing: border-box;
+    /* height: 40vh; */
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 41px;
+  }
+  

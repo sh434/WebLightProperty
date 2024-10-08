@@ -1,0 +1,136 @@
+.footer-top-area {
+  padding-top: 41px;
+  padding-bottom: 20px;
+}
+
+.section-bg-2 {
+  background-color: var(--secondary-color);
+}
+
+.footer-widget {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+  .footer-about-widget {
+    padding-right: 35px;
+  }
+}
+
+.footer-logo {
+  position: relative;
+  top: -10px;
+}
+
+.footer-address ul li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+
+}
+
+.footer-address ul li .footer-address-icon {
+  float: left;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.ltns__social-media ul li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 60px !important;
+  padding: 9px;
+  height: 60px !important;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 35px;
+  transition: .3s;
+  color: floralwhite;
+}
+
+.footer-widget {
+  margin-bottom: 60px;
+}
+
+.footer-widget .footer-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+
+
+.footer-menu ul li {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+
+.footer-menu ul li a:hover::before {
+  position: absolute;
+  content: "//";
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: inherit;
+  opacity: 1;
+  visibility: visible;
+  margin-left: -20px;
+  color: #fa4a4a;
+}
+
+.footer-menu ul li a:hover {
+  color: #fa4a4a;
+}
+
+.footer-newsletter .btn-wrapper .btn {
+  padding: 0 18px;
+  height: 100%;
+}
+
+.footer__bottom--inner {
+  border-top: 1px solid white;
+}
+
+.form-subscribe .form-control {
+  background-color: hsla(0, 0%, 100%, .8);
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 1px;
+  border: none;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px
+}
+
+.form-subscribe .form-control.focus,
+.form-subscribe .form-control:focus {
+  z-index: 2;
+  background-color: hsla(0, 0%, 100%, .8);
+  
+}
+
+.form-subscribe .btn {
+  border-top-right-radius: 36px;
+  border-bottom-right-radius: 36px;
+  background: #fa4a4a;
+  border-color: #fa4a4a;
+  height: 46.5px;
+}
+.copyright__content--link:hover {
+  color: #fa4a4a; /* Change color on hover */
+}
+.ltns__social-media ul li :hover{
+  color: #fa4a4a;
+}

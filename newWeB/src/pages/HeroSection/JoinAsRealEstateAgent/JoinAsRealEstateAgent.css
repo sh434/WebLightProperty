@@ -1,0 +1,18 @@
+.agents__consult--thumb {
+    position: absolute;
+    bottom: 430px;
+}
+.agent-button {
+    background-color: #ffffff; /* White button */
+    color: #d52e32; /* Red text */
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.agent-button:hover {
+    background-color: #e6e6e6; /* Light gray on hover */
+}

@@ -1,0 +1,20 @@
+nav#ftco-navbar {
+    background: #fffffe !important;
+    height: 100px;
+    /* color: black; */
+}
+
+a.nav-link {
+    color: #434343;
+    margin-right: 24px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+    /* Adjust this value as needed */
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+    /* Removes margin from the last item */
+}

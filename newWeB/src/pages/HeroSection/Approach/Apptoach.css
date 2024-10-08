@@ -1,0 +1,111 @@
+.aprroaches{
+    border-radius: 5px;
+    box-shadow: 29px 28px rgba(213, 46, 50, 1);
+    ;
+}
+.testimonial__inner {
+    padding: 2rem 0 5rem;
+  }
+  @media only screen and (min-width: 992px) {
+    .testimonial__inner {
+      padding: 3rem 0 6rem;
+    }
+  }
+  
+  .testimonial__card {
+    background: var(--color-background);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 7px 32px 0 rgba(0, 0, 0, 0.08);
+  }
+  @media only screen and (min-width: 480px) {
+    .testimonial__card {
+      padding: 2.5rem 2rem;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .testimonial__card {
+      padding: 3rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .testimonial__card {
+      padding: 4rem 3.5rem;
+    }
+  }
+  
+  .testimonial__author {
+    gap: 1.5rem;
+  }
+  
+  .testimonial__author--name {
+    margin-bottom: 0.5rem;
+  }
+  
+  .testimonial__author--subtitle {
+    line-height: 2rem;
+    color: var(--color-hover);
+  }
+  
+  .testimonial__card--top {
+    margin-bottom: 2rem;
+  }
+  @media only screen and (max-width: 991px) {
+    .testimonial__card--top span svg {
+      width: 4rem;
+    }
+  }
+  
+  .testimonial__desc {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+  }
+  @media only screen and (min-width: 992px) {
+    .testimonial__desc {
+      font-size: 1.6rem;
+      line-height: 3rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .testimonial__desc {
+      line-height: 3.2rem;
+      font-size: 1.7rem;
+    }
+  }
+  
+  .testimonial__container {
+    padding: 0;
+  }
+  @media only screen and (min-width: 992px) {
+    .testimonial__container {
+      padding: 0 5rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .testimonial__container {
+      padding: 0 8rem;
+    }
+  }
+  .testimonial__container .swiper__nav--btn {
+    opacity: 1;
+    visibility: visible;
+  }
+  @media only screen and (max-width: 991px) {
+    .testimonial__container .swiper__nav--btn {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .testimonial__container:hover .swiper__nav--btn {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .testimonial__icon {
+      display: none;
+    }
+  }
+  

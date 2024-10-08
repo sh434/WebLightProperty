@@ -1,0 +1,47 @@
+nav#ftco-navbar {
+    background: #fffffe !important;
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+a.nav-link {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    color: var(--color-foreground);
+    position: relative;
+    font-weight: 700;
+    padding: 0.3rem 0;
+}
+
+.navbar-nav .nav-item {
+    /* margin-right: 16px; */
+    position: relative;
+}
+/* 
+.header__logo {
+    width: 161px;
+} */
+
+.navbar-nav .nav-item::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0.1rem;
+    background: var(--color-hover);
+    transition: width 0.3s ease;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar-nav .nav-item:hover::before {
+    width: 100%;
+}
+
+a.nav-link:hover {
+    text-decoration: none;
+    color: var(--color-hover);
+}
