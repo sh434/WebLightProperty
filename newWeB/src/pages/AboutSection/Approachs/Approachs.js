@@ -45,7 +45,7 @@ const Approachs = () => {
                                 data-aos-duration={1200}
                                 data-aos-delay={150}
                             >
-                                <h2 className="section__heading--title">
+                                <h2 className="section__heading--title pt-2 pb-1">
                                     Our Approach
                                 </h2>
                                 <p className="section__heading--desc">
@@ -92,7 +92,7 @@ const Approachs = () => {
                             <p>We aim to maximize your investment while ensuring...</p>
                             <div className='row pt-2'>
                                 {amenitiesData.map((item, index) => (
-                                    <div key={index} className='col-md-3'>
+                                    <div key={index} className='col-md-3 col-6'>
                                         <div className="amenities__icone text-center">
                                             <span>
                                                 <i className={item.iconClass}></i>
