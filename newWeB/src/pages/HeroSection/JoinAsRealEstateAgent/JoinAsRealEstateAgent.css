@@ -16,3 +16,16 @@
 .agent-button:hover {
     background-color: #e6e6e6; /* Light gray on hover */
 }
+.want{
+    padding: 20px;
+}
+@media (max-width: 567px) {
+    .agents__consult--thumb {
+        position: absolute;
+        bottom: 1205px;
+      }
+      .want{
+        padding: 104px;
+    }
+      
+    }

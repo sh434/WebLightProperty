@@ -10,7 +10,7 @@ const JoinAsRealEstateAgent = () => {
                         <div className='agents__consult--thumb'><img src="assets/3d-view-house-model 1.png" /></div>
                         
                     </div>
-                    <div className='col-md-6 ' style={{paddingTop:"20px"}}>
+                    <div className='col-md-6 want' >
                         <h2 className='text-white'>Want To Become A Real Estate Agent?</h2>
                         <p className='text-white'>We'll help you to grow your career and growth.</p>
                         <button className="agent-button">Click Here</button>

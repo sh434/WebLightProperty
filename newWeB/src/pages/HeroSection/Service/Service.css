@@ -96,3 +96,12 @@
     /* margin-top: 17px; */
     display: inline-blo
 }
+
+.expertise-card {
+    width: 100%; 
+    background-color: black;
+    border-radius: 8px;
+    margin: 0 auto; 
+    padding: 11px;
+
+}

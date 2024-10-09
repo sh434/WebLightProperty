@@ -40,7 +40,7 @@ const Regular = () => {
                     data-aos-duration={1200}
                     data-aos-delay={100}>
                     {amenitiesData.map((item, index) => (
-                        <div key={index} className='col-md-3'>
+                        <div key={index} className='col-md-3 col-6 mb-30'>
                             <div className="amenities__icone text-center">
                                 <span>
                                     <i className={item.iconClass}></i>
