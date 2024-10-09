@@ -38,3 +38,9 @@
 .ltn__social-media>ul>li>a>i:hover {
     color: #d42e32;
 }
+
+@media only screen and (max-width: 767px) {
+    .ltn__header-top-area {
+        display: none; 
+    }
+}

@@ -46,7 +46,7 @@ const Service = () => {
                             {cardData.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="custom-card col-md-2 col-lg-2 mt-4"
+                                    className="custom-card col-md-2 col-lg-2 mt-4 col-5"
                                     style={{ backgroundColor: item.backgroundColor, marginLeft: "13px" }}
                                 >
                                     <div className="card-content">

@@ -45,3 +45,12 @@ a.nav-link:hover {
     text-decoration: none;
     color: var(--color-hover);
 }
+/* for mobile responsive */
+@media (max-width: 767px) {
+    .header__logo{
+        height: 50px;
+    }
+    .footer__logo--img{
+        height: 47px;
+    }
+}

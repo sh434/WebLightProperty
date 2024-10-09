@@ -37,7 +37,7 @@ function Footer() {
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+                            <div className="col-xl-2 col-md-6 col-sm-6 col-6">
                                 <div className="footer-widget footer-menu-widget clearfix">
                                     <h4 className="footer-title">Company</h4>
                                     <div className="footer-menu">
@@ -51,7 +51,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+                            <div className="col-xl-2 col-md-6 col-sm-6 col-6">
                                 <div className="footer-widget footer-menu-widget clearfix">
                                     <h4 className="footer-title">Services</h4>
                                     <div className="footer-menu">
@@ -64,7 +64,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+                            <div className="col-xl-2 col-md-6 col-sm-6 col-6">
                                 <div className="footer-widget footer-menu-widget clearfix">
                                     <h4 className="footer-title">Featured Properties</h4>
                                     <div className="footer-menu">
@@ -77,7 +77,7 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-md-6 col-sm-12 col-12">
+                            <div className="col-xl-3 col-md-6 col-sm-12 col-6">
                                 <div className="footer-widget footer-newsletter-widget">
                                     <h4 className="footer-title">Contact Us</h4>
 
@@ -118,7 +118,7 @@ function Footer() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="ltns__social-media mt-20 text-center">
+                                    <div className="ltns__social-media mt-20 text-center col-12">
                                         <ul>
                                             <li>
                                                 <Link to="#" title="Facebook">

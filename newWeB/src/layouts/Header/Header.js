@@ -1,25 +1,21 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ReactComponent as UserIcons } from "../../icons/user.svg"
-import { ReactComponent as WishlishtIcons } from "../../icons/wishlisht.svg"
-import { ReactComponent as SearchIcons } from "../../icons/search.svg"
+import { ReactComponent as UserIcons } from "../../icons/user.svg";
+import { ReactComponent as WishlishtIcons } from "../../icons/wishlisht.svg";
+import { ReactComponent as SearchIcons } from "../../icons/search.svg";
 import LoginModal from '../../pages/AuthModals/LoginModal';
-import './Header.css'
-
+import './Header.css';
 
 const Header = () => {
-
     const [showLogin, setShowLogin] = useState(false);
     const handleLoginOpen = () => setShowLogin(true);
     const handleLoginClose = () => setShowLogin(false);
 
     return (
         <>
-            <nav
-                className="navbar navbar-expand-lg ftco_navbar bg-dark ftco-navbar-light"
-                id="ftco-navbar"
-            >
+            <nav className="navbar navbar-expand-lg ">
                 <div className="container">
+             
                     <div className="header__logo">
                         <Link to="/">
                             <img
@@ -29,18 +25,21 @@ const Header = () => {
                             />
                         </Link>
                     </div>
+                    {/* Toggle button for mobile */}
                     <button
                         className="navbar-toggler"
                         type="button"
-                        data-toggle="collapse"
-                        data-target="#ftco-nav"
-                        aria-controls="ftco-nav"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="oi oi-menu"></span> 
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse d-flex justify-content-center" id="ftco-nav">
+
+                    {/* Menu items */}
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item active">
                                 <Link to="/" className="nav-link">Home</Link>
@@ -58,15 +57,8 @@ const Header = () => {
                                 <Link to="/property-card" className="nav-link">Properties</Link>
                             </li>
                             <li className="nav-item">
-                                <Link
-                                    className="nav-link"
-                                    to="/service"
-                                >
-                                    Services
-                                </Link>
-
+                                <Link to="/service" className="nav-link">Services</Link>
                             </li>
-                        
                             <li className="nav-item">
                                 <Link to="/blog" className="nav-link">Blogs</Link>
                             </li>
@@ -76,28 +68,23 @@ const Header = () => {
                         </ul>
                     </div>
 
-                    <div className="d-flex">
-                        <li className="nav-item">
+                    {/* Right-side icons */}
+                    <div className="d-flex header-icons">
+                        <Link to="/search" className="nav-link">
                             <SearchIcons />
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/wishlist.html" className="nav-link">
-                                <WishlishtIcons />
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link" onClick={handleLoginOpen}>
-                                <UserIcons />
-                            </Link>
-                        </li>
-
-                        <LoginModal show={showLogin} handleClose={handleLoginClose} />
+                        </Link>
+                        <Link to="/wishlist" className="nav-link">
+                            <WishlishtIcons />
+                        </Link>
+                        <Link to="#" className="nav-link" onClick={handleLoginOpen}>
+                            <UserIcons />
+                        </Link>
                     </div>
 
+                    {/* Login Modal */}
+                    <LoginModal show={showLogin} handleClose={handleLoginClose} />
                 </div>
             </nav>
-            
         </>
     );
 };
